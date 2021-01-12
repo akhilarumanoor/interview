@@ -1,0 +1,69 @@
+.user {
+  padding-top: 10%;
+}
+
+.parent {
+  border: 1px solid #333;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 30px;
+}
+.eachChild {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+.eachChild select {
+  width: 86%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2c2c2c;
+}
+.eachChild input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2e2e2e;
+}
+.submit-div {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.errorP {
+  padding: 0;
+  color: red;
+  margin: 0;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.pictureBox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  text-align: center;
+}
+.pictureBox img {
+  width: 150px;
+  height: 150px;
+}
+.picdiv {
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border: 1px solid;
+  padding: 20px;
+  margin-top: 20px;
+}
+.red {
+  color: red;
+}
+.btn {
+  padding: 10px;
+}
